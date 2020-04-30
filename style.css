@@ -1,0 +1,23 @@
+.profile {
+  display: flex;
+  padding-left: 20%;
+  align-items: center;
+}
+.profile img {
+  width: 100px;
+}
+.profile span {
+  padding: 10px;
+}
+.profile span h6 a:hover {
+  color: initial;
+}
+
+#buttons {
+  padding-left: 20%;
+}
+#buttons button {
+  margin: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

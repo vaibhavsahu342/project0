@@ -1,0 +1,33 @@
+$screen : 20%;
+.profile{
+    display: flex;
+    padding-left: $screen;
+    align-items: center;
+    img{
+        width: 100px;
+    }
+    span{
+        padding: 10px;
+        h6{
+            a:hover{
+                color: initial;
+            }
+        }
+    }
+}
+#buttons{
+    padding-left: $screen;
+    button{
+        margin: 5px;
+        
+        // a:hover{
+        //     text-decoration: none;
+        //     color: white;
+        // }
+    }
+    // button:hover{
+    //    a{
+    //        color: white;
+    //    }
+    // }
+}
