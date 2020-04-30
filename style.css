@@ -1,5 +1,10 @@
+.social-icons img:hover {
+  transform: scale(1.25);
+}
+
 .profile {
   display: flex;
+  padding-left: 20%;
   align-items: center;
 }
 .profile img {
@@ -13,7 +18,8 @@
 }
 
 #buttons {
-  padding-left: 20%;
+  float: right;
+  padding-right: 32%;
 }
 #buttons button a {
   color: inherit;
@@ -33,6 +39,16 @@ body {
 
 .footer h4 {
   text-align: center;
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 10px;
+}
+.v1 {
+  border-left: 2px solid black;
+  height: 110px;
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

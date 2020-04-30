@@ -1,7 +1,10 @@
 $screen : 20%;
+%animate{
+    transform: scale(1.25);
+}
 .profile{
     display: flex;
-    // padding-left: $screen;
+    padding-left: $screen;
     align-items: center;
     img{
         width: 100px;
@@ -16,7 +19,8 @@ $screen : 20%;
     }
 }
 #buttons{
-    padding-left: $screen;
+    float: right;
+    padding-right: $screen*1.6;
     button{
         a{
             color: inherit;
@@ -41,4 +45,18 @@ body{
     h4{
         text-align: center;
     }
+}
+.social-icons{
+        img{
+            width: 30px;
+            margin: 10px;   
+        }
+        img:hover{
+            @extend %animate
+        }
+}
+.v1{
+    border-left: 2px solid black;
+    height: 110px;
+    margin-left: 10px;
 }
