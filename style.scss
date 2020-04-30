@@ -18,16 +18,27 @@ $screen : 20%;
 #buttons{
     padding-left: $screen;
     button{
-        margin: 5px;
-        
-        // a:hover{
-        //     text-decoration: none;
-        //     color: white;
-        // }
+        a{
+            color: inherit;
+        }
+        a:hover{
+            color: white;
+            text-decoration: none;
+        }
     }
-    // button:hover{
-    //    a{
-    //        color: white;
-    //    }
-    // }
+    button:hover{
+        a{
+            color: white;
+        }
+    }
+}
+$padding:10%;
+body{
+    padding-right: $padding;
+    padding-left: $padding;
+}
+.footer{
+    h4{
+        text-align: center;
+    }
 }
