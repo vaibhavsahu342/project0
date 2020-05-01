@@ -58,4 +58,64 @@ b {
   font-weight: 500;
 }
 
+@media all and (max-width: 699px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .center {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+  }
+  .center p {
+    font-size: 18px;
+  }
+
+  .center-content {
+    width: 100%;
+    padding: 0;
+  }
+
+  .footer {
+    padding: 0;
+    margin: 0;
+  }
+
+  .profile {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .profile .center img {
+    width: 50%;
+  }
+  .profile .center span h3 {
+    font-size: 30px;
+  }
+  .profile .center span h6 {
+    font-size: 20px;
+  }
+  .profile .center span h5 {
+    font-size: 20px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  #buttons {
+    padding-top: 15px;
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
