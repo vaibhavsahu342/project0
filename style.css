@@ -4,40 +4,28 @@
 
 .profile {
   display: flex;
-  padding-left: 20%;
+  flex-wrap: wrap;
   align-items: center;
+  text-align: center;
 }
 .profile img {
-  width: 100px;
+  width: 130px;
 }
-.profile span {
-  padding: 10px;
+.profile span h3 {
+  padding-top: 5px;
 }
 .profile span h6 a:hover {
   color: initial;
 }
 
-#buttons {
-  float: right;
-  padding-right: 32%;
-}
-#buttons button a {
-  color: inherit;
-}
-#buttons button a:hover {
-  color: white;
-  text-decoration: none;
-}
-#buttons button:hover a {
-  color: white;
-}
-
 body {
-  padding-right: 10%;
-  padding-left: 10%;
+  margin: auto;
+  width: 55%;
 }
 
 .footer h4 {
+  padding-right: 5px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -46,9 +34,28 @@ body {
   margin: 10px;
 }
 .v1 {
-  border-left: 2px solid black;
-  height: 110px;
-  margin-left: 10px;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 5px;
+}
+
+.center-content {
+  width: 78%;
+  padding: 10px;
+}
+
+#buttons {
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+b {
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=style.css.map */

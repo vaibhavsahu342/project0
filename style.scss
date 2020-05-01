@@ -1,16 +1,19 @@
-$screen : 20%;
+$pad:5px;
 %animate{
     transform: scale(1.25);
 }
 .profile{
     display: flex;
-    padding-left: $screen;
+    flex-wrap: wrap;
     align-items: center;
+    text-align: center;
     img{
-        width: 100px;
+        width: 130px;
     }
     span{
-        padding: 10px;
+        h3{
+            padding-top:$pad ;
+        }
         h6{
             a:hover{
                 color: initial;
@@ -18,45 +21,42 @@ $screen : 20%;
         }
     }
 }
-#buttons{
-    float: right;
-    padding-right: $screen*1.6;
-    button{
-        a{
-            color: inherit;
-        }
-        a:hover{
-            color: white;
-            text-decoration: none;
-        }
-    }
-    button:hover{
-        a{
-            color: white;
-        }
-    }
-}
-$padding:10%;
 body{
-    padding-right: $padding;
-    padding-left: $padding;
+    margin: auto;
+    width: 55%;
 }
 .footer{
-    h4{
+    h4{padding-right: 5px;
+        padding-top: 10px;
         text-align: center;
     }
 }
 .social-icons{
         img{
             width: 30px;
-            margin: 10px;   
+            margin: 10px;  
         }
         img:hover{
             @extend %animate
         }
 }
 .v1{
-    border-left: 2px solid black;
-    height: 110px;
-    margin-left: 10px;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+.center {
+        margin: auto;
+        width: 60%;
+        padding: 5px;
+}
+.center-content{
+    width: 78%;
+    padding: 10px;
+}
+#buttons{
+    padding-left: 10%;
+    padding-right: 5%;
+}
+b{
+    font-weight: 500;
 }
