@@ -61,6 +61,20 @@ b{
     font-weight: 500;
 }
 
+.project-contents{   
+    padding: 15px;
+    width: 100%;
+    span{
+        font-weight: 600;
+        a{
+            color: black;
+        }
+    }
+    p{
+        font-size: 1em;
+    }
+}
+
 @media all and (max-width:699px){
     *{
         margin: 0;
@@ -113,5 +127,18 @@ b{
         margin: 0;
         padding-left: 5%;
         padding-right: 5;
+    }
+    .project-contents{   
+        padding: 15px;
+        width: 100%;
+        span{
+            font-weight: 600;
+            a{
+                color: black;
+            }
+        }
+        p{
+            font-size: 1em;
+        }
     }
 }
