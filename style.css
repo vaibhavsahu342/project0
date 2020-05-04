@@ -50,8 +50,12 @@ body {
 }
 
 #buttons {
-  padding-left: 10%;
-  padding-right: 5%;
+  padding-top: 10px;
+  margin: 0;
+  padding-bottom: 15px;
+}
+#buttons div > div {
+  padding-right: 5px;
 }
 
 b {
@@ -127,8 +131,10 @@ b {
   #buttons {
     padding-top: 15px;
     margin: 0;
-    padding-left: 5%;
-    padding-right: 5;
+    padding-bottom: 15px;
+  }
+  #buttons div > div {
+    padding-right: 5px;
   }
 
   .project-contents {

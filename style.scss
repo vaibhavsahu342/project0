@@ -54,8 +54,12 @@ body{
     padding: 10px;
 }
 #buttons{
-    padding-left: 10%;
-    padding-right: 5%;
+    padding-top: 10px;
+    margin: 0;
+    padding-bottom: 15px;
+    div>div{
+        padding-right: 5px;
+    }
 }
 b{
     font-weight: 500;
@@ -125,8 +129,10 @@ b{
     #buttons{
         padding-top: 15px;
         margin: 0;
-        padding-left: 5%;
-        padding-right: 5;
+        padding-bottom: 15px;
+        div>div{
+            padding-right: 5px;
+        }
     }
     .project-contents{   
         padding: 15px;
@@ -141,4 +147,5 @@ b{
             font-size: 1em;
         }
     }
+    
 }
